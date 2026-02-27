@@ -3,6 +3,7 @@ Lets govern this data in an amazing ecosystem!
 
 - [Owner's name] Floran Minnaar
 - [Group member] Benedikt Kasior
+- [Data Scientist] Justus Nau
 
 ## Project Description
 Credit scoring bias analysis for DEGO course
