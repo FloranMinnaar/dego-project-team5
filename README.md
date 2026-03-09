@@ -91,6 +91,11 @@ and remediated as part of this audit.
 
 ---
 
+## Presentation Link
+https://www.youtube.com/watch?v=HOw9heuHYl4
+
+---
+
 ## Executive Summary
 
 NovaCred's credit application dataset presents significant governance risks across all four audit dimensions. On data quality, the most critical finding is a consistency score of 52.8%, driven by non-standardised gender codes and non-ISO date formats — issues that are entirely preventable with schema enforcement at the API boundary. On bias, a Disparate Impact Ratio of **0.77** indicates potential disparate impact (four-fifths rule violated) in lending outcomes by gender; age-based patterns and interaction effects compound this risk, with the 25–34 age group showing a gender DI of 0.584. On privacy, all 502 records store five direct identifiers in plaintext within a single document, with no encryption, field-level access control, or data retention policy in place. Under the EU AI Act, NovaCred's scoring algorithm is unambiguously **high-risk** (Annex III §5(b)), creating binding obligations around logging, human oversight, and data governance that the current system does not meet.
